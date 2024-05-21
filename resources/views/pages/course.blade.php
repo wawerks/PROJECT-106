@@ -71,7 +71,7 @@
         @foreach ($courses as $course)
             <tr>
                 <td>{{ $course->courseid }}</td>
-                <td>{{ $course->studentid }}</td>
+                <td>{{ $course->studentid}}</td>
                 <td>{{ $course->coursetitle }}</td>
                 <td>{{ $course->coursedescription }}</td>
             </tr>
